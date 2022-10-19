@@ -1,0 +1,172 @@
+.principal {
+    font-family: Arial;
+    background-image: url(campo.jpg);
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.caixa-tabela {
+    display: flex;
+    justify-content: center;
+}
+
+.tabela-campeonato {
+    border: 1px solid #DDDDDD;
+    width: 650px;
+    border-collapse: collapse;
+    background: rgba(255,255,255,1);
+}
+
+.azul-marinho {
+    color: #003366;
+}
+
+.azul-celeste {
+    color: #1398BE;
+}
+
+.laranja {
+    color: #DE9800;
+}
+
+.cinza {
+    color: #CCCCCC;
+}
+
+.vermelho {
+    color: #C91B04;
+}
+
+.coluna-posicao-classificacao {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo-coluna {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+}
+
+.coluna-nome-times {
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+}
+
+.coluna-pontos {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.coluna-generica {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    height: 35px;
+}
+
+.fundo-escuro {
+    background-color: #F7F7F7;
+}
+
+.borda-maior {
+    border-bottom: 2px solid #CCCCCC;
+    border-collapse: collapse;
+}
+
+.nome-campeonatos {
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: left;
+    width: 60px;
+}
+
+.siglas {
+    font-size: 10px;
+    color: #555555;
+    text-align: left;
+    width: auto;
+    margin-left: 20px;
+}
+
+.caixa-colorida {
+    width: 11px;
+    height: 11px;
+    border-radius: 2px;
+    margin-left: 7px;
+}
+
+.fundo-azul-marinho {
+    background: #003366;
+}
+
+.fundo-azul-celeste {
+    background: #1398BE;
+}
+
+.fundo-laranja {
+    background: #DE9800;
+}
+
+.fundo-vermelho {
+    background: #C91B04;
+}
+
+.barra-legendas { 
+    caption-side: bottom;
+    border: 1px solid #DDDDDD;
+    border-top: 0px;
+    background: rgba(255,255,255,1);
+}
+
+.caixa-tabela-legendas {
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.titulo-generico {
+    width: 40px;
+    height: 25px;
+}
+
+.titulo-porcentagem {
+    width: 45px;
+}
+
+.titulo-nome-time {
+    width: 240px;
+}
+
+.caixa-legendas {
+    margin-left: 4px;
+}
+
+.tabela-legendas {
+    width: 537px;
+    border-collapse: collapse;
+}
+
+.linha-legenda {
+    height: 18px;
+}
+
+.posicao {
+    width: 5px;
+}
+
+.letras {
+    font-weight: bold;
+    display: inline-block;
+    justify-content: center;
+    width: min-content;
+    margin-left: 2px;
+}
